@@ -1,8 +1,9 @@
 # Plagiarism Detection System (DS II Project)
 
-##  Overview
-This project implements a plagiarism detection system using n-gram analysis and hashing techniques. It compares multiple documents and calculates similarity percentages based on shared text patterns.
-It is IDE-independent and can be executed in any Java-supported development environment.
+## Overview
+This project implements a plagiarism detection system using n-gram analysis and hashing techniques. It compares documents and calculates similarity percentages based on shared text patterns.
+It is an IDE-independent project, and any IDE which can run java can be used.
+
 ---
 
 ## Objectives
@@ -23,10 +24,10 @@ It is IDE-independent and can be executed in any Java-supported development envi
 ---
 
 ## Data Structures Used
-- ArrayList: storing tokens and n-grams  
-- HashMap: storing document mappings  
-- HashSet: efficient comparison  
-- StringBuilder: building n-grams  
+- ArrayList → storing tokens and n-grams  
+- HashMap → storing document mappings  
+- HashSet → efficient comparison  
+- StringBuilder → building n-grams  
 
 ---
 
@@ -41,6 +42,25 @@ It is IDE-independent and can be executed in any Java-supported development envi
 
 ---
 
+## Input Options
+
+The system supports two modes:
+
+1. **Manual Input Mode**  
+   - User enters file paths at runtime  
+   - Supports both absolute paths and relative paths  
+
+2. **Sample Dataset Mode**  
+   - Sample text files are included in the `data/` folder  
+   - Users can input paths like:
+     ```
+     data/doc1.txt
+     data/doc2.txt
+     data/doc3.txt
+     ```
+   - The above paths are already present in the mentioned folder
+---
+
 ## How to Run
 
 1. Clone the repository:
@@ -53,9 +73,10 @@ git clone https://github.com/YOUR_USERNAME/Plagiarism-Detection-System-DSII.git
 - Eclipse
 - NetBeans
 
-3. Ensure file paths are correctly set in Main.java
+3. Run `Main.java`
 
-4. Run `Main.java`
+4. Enter file paths when prompted  
+   (Example: `data/doc1.txt`)
 
 ---
 
@@ -81,9 +102,9 @@ doc2 vs doc3 → 0.00%
 
 ## Team Members
 - Aarya Deodhar  
-- Raghavendra Rao  
+- Raghavendra Rao
 - Maithilee Kate
-- Avanish Parkhi  
+- Avanish Parkhi
 
 ---
 
