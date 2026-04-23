@@ -1,7 +1,7 @@
 # Plagiarism Detection System (DS II Project)
 
 ## Overview
-This project implements a plagiarism detection system using n-gram analysis and hashing techniques. It compares documents and calculates similarity percentages based on shared text patterns.
+This project implements a local plagiarism detection system using n-gram analysis and hashing techniques. It compares documents and calculates similarity percentages based on shared text patterns.
 It is an IDE-independent project, and any IDE which can run java can be used.
 
 ---
